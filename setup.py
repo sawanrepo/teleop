@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'ur5_teleop = teleop.ur5_teleop:main',
-            'franka_teleop = teleop.franka_panda_teleop.py',
+            'franka_teleop = teleop.franka_panda_teleop:main',
         ],
     },
 )
